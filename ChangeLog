@@ -1,3 +1,10 @@
+2012-11-15  KevinB. Kenny  <kennykb@acm.org>
+
+	* configure.in: Made change so that `make test` works even
+	* Makefile.in:  against an uninstalled version of tdbc.
+	* configure:    autoconf 2.68
+		*** ADVANCED THE VERSION OF AUTOCONF IN USE ***
+
 2012-11-08  Don Porter  <dgp@users.sourceforge.net>
 
 	* configure.in:
@@ -7,9 +14,9 @@
 2012-07-26  Jan Nijtmans  <jan.nijtmans@gmail.com>
 
 	* generic/mysqlStubInit.c: Fix [14a8b7c3bd]: package tdbc::mysql fails
-	to load under Fedora 17. Make some tables "const". 
+	to load under Fedora 17. Make some tables "const".
 	* tclconfig/install-sh:    Update to latest TEA
-	* tclconfig/tcl.m4:	
+	* tclconfig/tcl.m4
 	* configure:		       autoconf-2.59
 
 2012-07-13  Kevin B. Kenny  <kennykb@acm.org>
